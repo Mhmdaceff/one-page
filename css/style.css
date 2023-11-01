@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* home page  */
+.navbar{
+    background-color: white;
+    /* box-shadow: 2px 2px 14px ; */
+    /* box-shadow: ; */
+}
+.navbar a{
+    color: #0d3d62 !important;
+    padding: 6px !important;
+    
+}
+header{
+    background:url("/img/hero-bg.jpg") ;
+}
+.background{
+    background: rgba(255, 255, 255, 0.838); 
+}
+
+.get{
+    background-color: #1e5f91 ;
+    color: white;
+}
+.navbar ul li {
+
+    color: #0d3d62 !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+ h1 {
+    color: #0d3d62 !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: #0d3d62 !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* .home-img{ */
+    /* background: url("/assert/img/hero-bg.jpg");
+    background: r; */
+
+/* } */
+.home-content{
+    margin-top: 50px !important;
+}
+
+.home-content p{
+    font-weight: 600;
+  
+}
+.head h3{
+    color: #0d3d62;
+}
+.big    {
+    color: #2472ae;
+}
+.box{
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.234) ;
+    transition: transform .4s ease-in-out;
+}
+
+.box:hover{
+    transform: scale(1.08); 
+}
+.number{
+        background-color: #f6fbfe;
+}
+.number p{
+    color: #0d3d62;
+}
+.ico{
+    width: 100px;
+    filter: grayscale();
+    transition: 1s;
+}
+
+.ico:hover{
+filter: brightness();
+transform: scale(1.15);
+}
+
+ul svg{
+    color: #2487ce;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+ul li{
+    padding-bottom: 10px;
+    padding-left: 28px;
+    position: relative;
+    /* margin: 2px ; */
+}
+
+/* .apps{
+    display: none !important;
+}
+.cards{
+    display: none !important;
+}    */
+
+.hi{
+    display: none;
+}
+.sh{
+    display: block !important;
+}
+
+#this{
+    cursor: pointer;
+}
+
+
+/* service page */
+
+
+.Design-card{
+    justify-content: center;
+}
+.ser-card{
+    max-width: 300px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.logo{
+    background-color: #f6fbfe;
+}
+.bard path{
+    position: relative;
+}
+.dribbble{
+    position: absolute;
+    margin-left: -65px;
+    top: 100px;
+    color: #2472ae;
+}
+.ser-card :hover .dribbble path{
+    fill: #fff !important;
+}
+.ser-card :hover .brad path{
+    fill: #2487ce !important;
+}
+
+
+
+.shad path{
+    position: relative;
+}
+.file{
+    position: absolute;
+    margin-left: -65px;
+    top: 100px;
+    color: #ec7e1efc;
+}
+.ser-card :hover .file path{
+    fill: #fff !important;
+}
+.ser-card :hover .shad path{
+    fill: #ec7e1efc !important;
+}
+
+
+
+
+.shad1 path{
+    position: relative;
+}
+.tach{
+    position: absolute;
+    margin-left: -65px;
+    top: 100px;
+    color: #ec0e58fc;
+}
+.ser-card :hover .tach path{
+    fill: #fff !important;
+}
+.ser-card :hover .shad1 path{
+    fill: #ec0e58fc !important;
+}
+
+
+.shad2 path{
+    position: relative;
+}
+.layer{
+    position: absolute;
+    margin-left: -65px;
+    top: 100px;
+    color: #eee01efc;
+}
+.ser-card :hover .layer path{
+    fill: #fff !important;
+}
+.ser-card :hover .shad2 path{
+    fill: #eee01efc !important;
+}
+
+
+.shad4 path{
+    position: relative;
+}
+.showesd{
+    position: absolute;
+    margin-left: -65px;
+    top: 100px;
+    color: #ff3227fc;
+}
+.ser-card :hover .show path{
+    fill: #fff !important;
+}
+.ser-card :hover .shad4 path{
+    fill: #fd2f2ffc !important;
+}
+
+.shad5 path{
+    position: relative;
+}
+.arch{
+    position: absolute;
+    margin-left: -65px;
+    top: 100px;
+    color: #27f1fffc;
+}
+.ser-card :hover .arch path{
+    fill: #fff !important;
+}
+.ser-card :hover .shad5 path{
+    fill: #27f1fffc !important;
+}
+
+.service{
+    background-color: rgba(250, 247, 247 0.234);
+}
+.ser-card{
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.234) ;
+}
+
+.call{
+    background-color:#2487ce;
+    color: white;
+}
+/* service page End */
+
+
+
+
+
+
+ /* portfolio page */
+.app-name{
+    text-align: center;
+    margin: 0 auto !important;
+}
+ /* portfolio page End */
+
+
+
+
+
+
+ /* team page  */
+
+ .team{
+
+    position: relative;
+ }
+
+ .font {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(233, 228, 228, 0.819);
+    color: white;
+    opacity: 0;
+
+ }
+.team .font svg{
+    margin: 10px;
+    color: #427a9f;
+    
+}
+
+.admin:hover .font{
+    opacity: 1;
+}
+.teams{
+    background-color: #f3faffce;
+}
+ /* team page end */
+
+
+
+
+
+
+ /* price page  */
+
+.zero{
+    font-size: 40px;
+    color: #2472ae;
+ }
+
+ .sup{
+    font-size: 20px;
+    color: black;
+ }
+ .lin{
+    text-decoration: line-through !important;
+    
+ }
+ .price-card{
+    background-color: #3e95d8;
+    color: white;
+}
+.one{
+    color:white;
+    font-size: 40px;
+}
+ /* price page End */
+
+
+
+
+
+
+ /* question page */
+
+ #question{
+    background-color: #f3faffce;
+ }
+
+
+ /* .map{ */
+    /* maxwidth: 100%;
+    height: 300px; */
+ /* } */
+
+ .loc{
+    width: 60px;
+    height: 60px;
+    background-color: #c9e5f8ce;   
+    border-radius: 5px; 
+ }
+ /* .loc svg{ */
+   
+    
+    /* padding: 10%; */
+    
+
+    /* width: 100px; */
+ /* } */
+
+ .loc:hover svg{
+    color: white;
+    /* background-color: #2472ae !important; */
+
+ }
+ .loc:hover{
+background-color: #2472ae;    
+ }
+ .right p svg{
+    color: #2472ae;
+ }
+ .right h5{
+    color: #0d3d62  ;
+ }
+
+
+ /* footer */
+
+ .footer{
+    background-color: #c9e5f8ce;
+ }
+
+ .fot-icon {
+    padding: 20px;
+
+ }
+ .fot-icon svg{
+    cursor: pointer;
+    color: #0d3d62;
+ }
+
+ 
+
+ /* footer End*/
